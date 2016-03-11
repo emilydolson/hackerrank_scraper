@@ -33,7 +33,7 @@ for el in leaders:
     student = str(pars[1].a.string).strip()
     
     #Josh was just testing
-    if student == "joshua_nahum" or student == "Fakestuff":
+    if student == "joshua_nahum":
         continue
     student = hacker_to_msu[student]
     grade = str(float(str(pars[3].string).strip())/divisor)
